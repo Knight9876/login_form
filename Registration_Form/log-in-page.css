@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+}
+
+body {
+    background-image: linear-gradient(to right, blue, red, blue); 
+}
+
+.log-in-container {
+    text-align: center;
+    margin: 0rem 38rem ;
+    padding: 4rem 0;
+    border: 5px solid;
+    border-radius: 4rem;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.log-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-in-header {
+    font-size: 4rem;
+    padding-bottom: 6rem;
+    
+}
+
+label {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.form-div {
+    display: flex;
+    margin: 1rem;
+}
+
+input {
+    margin-left: 2rem;
+    background-color: transparent;
+    border-color: white;
+    border-style: ridge;
+    border-radius: 0.7rem;
+    border-width: 0.3rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+input:focus {
+    background-color: #fff;
+    color: black;
+}
+
+.log-in, .back-button {
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 2rem;
+    margin-bottom: 1rem;
+    /* border: none; */
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: 0.4rem;
+    border-style: ridge;
+}
+
+.log:focus, .back:focus {
+    color: rgb(167, 167, 167);
+}
+
+/* .sign-in:focus {
+    border-color: rgb(167, 167, 167);
+} */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.log-in:focus {
+    color: rgb(167, 167, 167);
+}
+
+.or {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 720px) {
+
+    /* body {
+        font-size: 10px;
+    } */
+
+    input {
+        font-size: 0.8rem;
+    }
+
+    .log-in-container {
+        margin: 0rem 3.6rem;
+    }
+
+    .log-in-header {
+        /* padding: 3rem; */
+        font-size: 2.7rem;
+    }
+
+    .log-in-form {
+        margin-top: -4rem;
+    }
+
+    .or {
+        font-size: 0.8rem;
+    }
+}

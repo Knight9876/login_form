@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 0), rgb(0, 0, 255));
+    /* background-color: red;
+    animation: infinite;
+    animation-name: keyboardcolorred;
+    animation-duration: 10s;
+    animation-name: keyboardcolorblue;
+    animation-duration: 10s; */
+}
+
+/* @keyframes keyboardcolorred {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
+@keyframes keyboardcolorblue {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+} */
+
+.landing-page {
+    /* position: relative; */
+    text-align: center;
+}
+
+.header {
+    color: white;
+    padding-top: 370px;
+    font-size: 3rem;
+}
+
+.sign-in-button, .log-in-button {
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 3rem;
+    /* border: none; */
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: 0.4rem;
+    border-style: ridge;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:focus {
+    color: rgb(167, 167, 167);
+}
+
+@media screen and (max-width: 720px) {
+    .header {
+        font-size: 2rem;
+    }
+}
